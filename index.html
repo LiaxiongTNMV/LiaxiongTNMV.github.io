@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Lia Quiz</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="main.js"></script>
+
+  </head>
+
+  <body>
+
+   <h1>ລອງທົດສອບຄວາມຮູ້ຂອງເຈົ້າຈາ</h1>
+   <form id="quiz" name="quiz">
+    
+    <p>What is the capital of Rhode Island?</p>
+    <input id="textbox" type="text" name="question1"/>
+
+    <p>What is the capital of Connecticut?</p>
+    <input id="mc" type="radio" name="question2" value="Hartford"> Hartford <br/>
+    <input id="mc" type="radio" name="question2" value="Heartford"> Heartford <br/>
+
+    <p>What is the capital of New York?</p>
+    <input id="mc" type="radio" name="question3" value="Albany"> Albany <br/>
+    <input id="mc" type="radio" name="question3" value="All Benny's"> All Benny's <br/>
+
+
+    <input id="button" type="button" value="I'm finished!" onclick="check();">
+
+
+   
+   </form>
+
+
+   <div id="after_submit">
+   	  <p id="message"></p>
+      <p id="number_correct"> </p>
+      <img id="picture">
+   </div>
+
+  </body>
+</html>
